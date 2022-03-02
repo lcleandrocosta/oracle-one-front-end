@@ -5,6 +5,8 @@ body {
     margin-left: 150px;
     margin-right: 200px;
 }
+
+/* Header*/
 .cabecalhoPrincipal .container {
     align-items: center;
     display: flex;
@@ -26,6 +28,7 @@ body {
     font-weight: bold;
 }
 
+/* Perfil principal*/
 .perfilPrincipal .perfil-container {
     align-items: center;
     display: flex;
@@ -34,12 +37,14 @@ body {
 }
 
 .perfil-apresentacao {
+    color: #464646;
     font-family: Raleway, sans-serif;
     font-size: 52px;
     font-weight: bold;
 }
 
 .perfil-formacao {
+    color: #464646;
     font-family: Raleway, sans-serif;
     font-size: 22;
     font-weight: lighter;
@@ -50,4 +55,23 @@ body {
     display: flex;
     height: 300px;
     width: 300px;
+}
+
+/* Seção Sobre Mim*/
+.sobreMim {
+    margin-top: 30px;
+    margin-right: 350px;
+}
+.sobreMim h2 {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 32;
+    font-weight: bold;
+}
+
+.sobreMim p {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 16;
+    font-weight: lighter;
 }
