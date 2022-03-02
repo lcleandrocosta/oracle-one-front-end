@@ -19,6 +19,7 @@ body {
     font-size: 16px;
     font-weight: medium;
     margin-left: 34.5px;
+    text-decoration: none;
 }
 
 .cabecalhoPrincipal-titulo {
@@ -50,6 +51,14 @@ body {
     font-weight: lighter;
 }
 
+.perfil-container .redes-sociais {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
 .perfil-foto {
     border-radius: 50%;
     display: flex;
@@ -59,7 +68,7 @@ body {
 
 /* Seção Sobre Mim*/
 .sobreMim {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-right: 350px;
 }
 .sobreMim h2 {
