@@ -84,3 +84,65 @@ body {
     font-size: 16;
     font-weight: lighter;
 }
+
+/* Seção Skills */
+.skills {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+.logos-skills {
+    color: #464646;
+    display: flex;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 32;
+}
+
+.skills img {
+    margin-top: 100px;
+}
+
+.skills p {
+    font-size: 16;
+}
+
+/* Seção Skills */
+.hobbies {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+.logos-hobbies {
+    color: #464646;
+    display: flex;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hobbies h2 {
+    font-size: 32;
+}
+
+.hobbies img {
+    margin-top: 100px;
+}
+
+.hobbies p {
+    font-size: 16;
+}
