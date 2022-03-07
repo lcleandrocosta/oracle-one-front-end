@@ -134,7 +134,7 @@ body {
 }
 
 /* Seção formações */
-#formacoes {
+#formacoes-titulo {
     font-weight: bold;
     justify-content: space-between;
     margin-top: 100px;
@@ -142,20 +142,21 @@ body {
 }
 
 .formacoes-container {
-    background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .formacoes-container img {
-    height: 200px;
-    width: 150px;
+    background-color: white;
+    height: 192px;
+    width: 130px;  
 }
 
 /* Container descrição de cursos */
 .container-descricao-cursos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .descricao-curso {
@@ -166,4 +167,9 @@ body {
 .descricao-ano {
     font-size: 16px;
     font-weight: lighter;
+}
+
+.interna {
+    background-color: white;
+    width: 50%px;
 }
