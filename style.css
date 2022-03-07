@@ -4,6 +4,9 @@ body {
     background-color: #F5F5F5;
     margin-left: 150px;
     margin-right: 200px;
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
 }
 
 /* Header*/
@@ -15,7 +18,6 @@ body {
 
 .cabecalhoPrincipal-nav-link {
     color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 16px;
     font-weight: medium;
     margin-left: 34.5px;
@@ -38,22 +40,17 @@ body {
 }
 
 .perfil-apresentacao {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 52px;
     font-weight: bold;
 }
 
 .perfil-formacao {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 22;
     font-weight: lighter;
 }
 
 .perfil-container .redes-sociais {
     color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 16px;
     font-weight: medium;
     text-decoration: none;
@@ -72,32 +69,24 @@ body {
     margin-right: 350px;
 }
 .sobreMim h2 {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 32;
     font-weight: bold;
 }
 
 .sobreMim p {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-size: 16;
     font-weight: lighter;
 }
 
 /* Seção Skills */
 .skills {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     justify-content: space-between;
     margin-top: 100px;
     text-align: center;
 }
 .logos-skills {
-    color: #464646;
     display: flex;
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     justify-content: space-between;
     margin-top: 100px;
@@ -110,6 +99,7 @@ body {
 
 .skills img {
     margin-top: 100px;
+   
 }
 
 .skills p {
@@ -118,17 +108,13 @@ body {
 
 /* Seção Skills */
 .hobbies {
-    color: #464646;
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     justify-content: space-between;
     margin-top: 100px;
     text-align: center;
 }
 .logos-hobbies {
-    color: #464646;
     display: flex;
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     justify-content: space-between;
     margin-top: 100px;
@@ -145,4 +131,39 @@ body {
 
 .hobbies p {
     font-size: 16;
+}
+
+/* Seção formações */
+#formacoes {
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.formacoes-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacoes-container img {
+    height: 200px;
+    width: 150px;
+}
+
+/* Container descrição de cursos */
+.container-descricao-cursos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao-curso {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.descricao-ano {
+    font-size: 16px;
+    font-weight: lighter;
 }
